@@ -3,6 +3,7 @@ import streamlit as st
 
 # ls to list all files and folders in the current directory
 # cd to navigate in and out of folders
+# streamlit rn ./Week_3_2_streamlit_IN_CLASS.py
 
 # Display a simple text message
 st.write("Hello streamlit!")
@@ -15,7 +16,10 @@ st.markdown("# This is my first streamlit app!")
 
 # Create a button that users can click.
 # If the button is clicked, the message changes.
-
+if st.button("Click me"):
+    st.write("You clicked the button! Great job.")
+else:
+    st.write("I dare you to click this button...")
 # ------------------------
 # COLOR PICKER WIDGET
 # ------------------------
