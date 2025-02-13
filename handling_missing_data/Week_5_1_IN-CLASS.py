@@ -59,16 +59,45 @@ st.pyplot(fig) # revealing the viz
 # - Dropping columns if more than 50% of the values are missing
 # - Imputing missing values with mean, median, or zero
 # ================================================================================
+st.subheader("Handle Missing Data")
 
+column = st.selectbox("Choose a column to fill", 
+                      df.select_dtypes(include=["number"]).columns)
+
+method = st.radio("Choose a method", 
+                  ["Original DF",
+                  "Drop Rows",
+                  "Impute Mean",
+                  "Impute Median",
+                  "Impute Zero"])
 
 # Work on a copy of the DataFrame so the original data remains unchanged.
+# df is going to stay untouched
+# df_clean is a copy of df that will change with the custom filters
+df_clean = df.copy()
+
+if method == "Original_DF":
+    pass
+elif method == "Drop Rows":
+    df_clean  = df_clean.dropna(subset = [column])
+elif method == "Impute Mean":
+    df_clean[column] = df[column].fillna(df[column].mean())
+elif method == "Impute Median":
+    df_clean[column] = df[column].fillna(df[column].median())
+elif method == "Impute Zero":
+    df_clean[column] = df[column].fillna(0)
 
 # Apply the selected method to handle missing data.
-
+st.write(df_clean.shape)
+st.write(df_clean.describe())
+st.dataframe(df_clean)
 
 # ------------------------------------------------------------------------------
 # Compare Data Distributions: Original vs. Cleaned
 #
 # Display side-by-side histograms and statistical summaries for the selected column.
 # ------------------------------------------------------------------------------
-
+st.subheader("Cleaned Data Distribution")
+fig, ax = plt.subplots()
+sns.histplot(df_clean[column], kde = True)
+st.pyplot(fig)
