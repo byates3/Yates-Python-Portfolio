@@ -1,6 +1,6 @@
 # Yates-Python-Portfolio
 
-This repository will serve as a portfolio for all my own data science projects. Future projects will be organized into individual project folders.
+This repository will serve as a portfolio for all my own data science projects. Projects are organized into individual project folders.
 
 **Personal Information**
 ---
