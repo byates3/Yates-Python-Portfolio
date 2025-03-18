@@ -41,7 +41,7 @@ st.divider()
 #_________________________________________________________________
 #----Creating new tables and separating the variables----
 
-# Create new columns for the decade and seller. Lines 23 and 24 were generated from ChatGPT 
+# Create new columns for the decade and seller. Lines 45 and 46 were generated from ChatGPT 
 df_melted["Decade"] = df_melted["Value of Issues by Seller"].str.extract(r'(\d{2}s)')
 df_melted["Seller"] = df_melted["Value of Issues by Seller"].str.extract(r'_(\w+)$')
 
