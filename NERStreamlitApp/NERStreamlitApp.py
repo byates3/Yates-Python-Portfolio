@@ -101,14 +101,6 @@ if st.button("Process Text"):
     # Create variable 'doc' to process the user inputted/uploaded text
     doc = nlp(user_text)
 
-    # Print all detected entities in Streamlit
-    # Create subheader for detected entities and labels section of app
-    st.subheader("Detected Entities and Labels:")
-
-    # for loop to print all detected words and corresponding labels
-    for ent in doc.ents:
-        st.markdown(f"{ent.text} : {ent.label_}")
-
     # Create subheader for the processed text section of app
     st.subheader("Processed Text:")
 
@@ -117,3 +109,11 @@ if st.button("Process Text"):
     st.write(f"{rendered}</div>", unsafe_allow_html=True)
 
     st.divider()
+
+    # Print all detected entities in Streamlit
+    # Create subheader for detected entities and labels section of app
+    st.subheader("Detected Entities and Labels:")
+
+    # for loop to print all detected words and corresponding labels
+    for ent in doc.ents:
+        st.markdown(f"{ent.text} : {ent.label_}")
