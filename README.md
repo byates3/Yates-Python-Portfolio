@@ -32,6 +32,7 @@ Project 3
 This project is a Streamlit app that enables users to explore Named Entity Recognition (NER) with their own chosed piece of text. Users can add their own custom patterns and labels, and the app has been deployed on the Streamlit Cloud.
 
 Link to Project 3: https://github.com/byates3/Yates-Python-Portfolio/tree/main/NERStreamlitApp
+
 Link to Project 3 App: https://byates3-nerstapp.streamlit.app/
 
 -------------------------------------------------------------------------
