@@ -1,4 +1,4 @@
-**Project overview**
+**Project Overview**
 ---
 The goal of this project is to take a messy dataset, including missing values, variables sharing columns, etc., and transforming it into neat, easy to work with data. This will be done through a number of different methods including creating new tables, creating and reordering columns, and visualizing the data. Moreover, this project aims to demonstrate the importance of data tidying. Information on data tidying can be found under the "References Used" section. 
 
