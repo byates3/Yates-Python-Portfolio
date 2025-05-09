@@ -36,7 +36,7 @@ df.columns = df.columns.str.strip().str.lower()
 #--------------------------------------
 
 # Add Skyrim logo image to top of app page
-st.image("skyrim_logo.jpg")
+st.image("StreamlitAppFinal/skyrim_logo.jpg")
 
 # Create a title and link to original dataframe website
 st.title("Skyrim Books Exploration")
@@ -54,7 +54,7 @@ st.write("The Elder Scrolls V: Skyrim is a game that many have experienced and l
 st.divider()
 
 # Insert example image of a Skyrim book in game
-st.image("book.jpg")
+st.image("StreamlitAppFinal/book.jpg")
 st.divider()
 
 # Introductory paragraph to the goals of the app
