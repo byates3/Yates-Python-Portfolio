@@ -22,7 +22,7 @@ nlp = spacy.load("en_core_web_sm")
 
 # Load dataframe
 def loadData():
-    return pd.read_csv("skyrim_books.csv")
+    return pd.read_csv("StreamlitAppFinal/skyrim_books.csv")
 
 # Define dataframe as a varibale 'df'
 df = loadData()
