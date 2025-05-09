@@ -1,3 +1,5 @@
+**Mutant Moneyball Tidy Data Project**
+
 **Project Overview**
 ---
 The goal of this project is to take a messy dataset, including missing values, variables sharing columns, etc., and transforming it into neat, easy to work with data. This will be done through a number of different methods including creating new tables, creating and reordering columns, and visualizing the data. Moreover, this project aims to demonstrate the importance of data tidying. Information on data tidying can be found under the "References Used" section. 
@@ -37,5 +39,7 @@ Ensure that all four libraries are imported correctly:
 This project uses data from the Mutant Moneyball dataset. This can be found at the following GitHub page: https://github.com/EliCash82/mutantmoneyball/tree/main
 
 The principles of tidy data can be found here: https://vita.had.co.nz/papers/tidy-data.pdf
+
+For any issues, please message Beau Yates, byates3 on GitHub.
 
 -------------------------------------------------------------------------
