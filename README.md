@@ -37,13 +37,13 @@ Link to Project 3 App: https://byates3-nerstapp.streamlit.app/
 
 -------------------------------------------------------------------------
 
-Project 3
+Project 4
 ---
 This project is a Streamlit app that enables users to explore all 536 books in The Elder Scrolls V: Skyrim. Users may filter the books that grant skill points vs. those that don't, and they may filter via author. Then users may find Named Entity Recognition (NER) of the books description to identify the specific contents of the book.
 
-Link to Project 3: https://github.com/byates3/Yates-Python-Portfolio/tree/main/StreamlitAppFinal
+Link to Project 4: https://github.com/byates3/Yates-Python-Portfolio/tree/main/StreamlitAppFinal
 
-Link to Project 3 App: https://byates3-skyrimapp.streamlit.app/
+Link to Project 4 App: https://byates3-skyrimapp.streamlit.app/
 
 -------------------------------------------------------------------------
 
