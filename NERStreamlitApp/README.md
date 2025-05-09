@@ -52,6 +52,7 @@ Running the app locally:
 ---
 
 spaCy overview: https://spacy.io/api
+
 spaCy EntityRuler overview: https://spacy.io/api/entityruler
 
 For any issues, please message Beau Yates, byates3 on GitHub.

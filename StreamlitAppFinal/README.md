@@ -11,7 +11,7 @@ This is an interactive app for Streamlit that enables users to explore the 536 b
 ---
 
 Deployed app on Streamlit Cloud:
-https://byates3-nerstapp.streamlit.app/
+https://byates3-skyrimapp.streamlit.app/
 
 Running the app locally:
 
@@ -54,6 +54,7 @@ Skyrim is a huge game even without the 536 books. It is nearly impossible to exp
 ---
 
 spaCy overview: https://spacy.io/api
+
 Dataframe source: https://www.kaggle.com/datasets/aadamg/skyrim-books-from-uesp?resource=download
 
 For any issues, please message Beau Yates, byates3 on GitHub.
